@@ -1,0 +1,100 @@
+.task-details {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.details-pg-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.details-pg-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.details-pg-header > .back-btn {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.details-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px 30px 30px 30px; 
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header > .task-title {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.card-header > .edit-btn {
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: #5b46f7;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.task-meta {
+  display: flex;
+  gap: 15px;
+  margin: 7px 0px 0px 0px;
+  color: #555;
+  font-size: 14px;
+}
+
+.details-card > .task-desc {
+  font-size: 1rem;
+  margin: 19px 0;
+  color: #333;
+}
+
+.task-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.task-actions > .cmplt-btn {
+  background: #5b46f7;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  padding: 18px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  flex: 1;
+}
+
+.task-actions > .delete-btn {
+  background: #f8d7da;
+  font-size: 1rem;
+  color: #dc3545;
+  border: none;
+  padding: 18px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  flex: 1;
+}

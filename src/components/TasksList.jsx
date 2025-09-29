@@ -35,7 +35,7 @@ function TasksList({tasks, setTasks, newTask, openDetails}) {
         <div className="tasks-page">
             <h1 className="page-title">My Tasks</h1>
             <button className="new-task-btn" onClick= {newTask}>+ Add New Task</button>
-            <div className="main-div">
+            <div className="lists-div">
             {categories.map(
                 (status) => {
                     const tasks = tasksCats[status]
@@ -49,9 +49,9 @@ function TasksList({tasks, setTasks, newTask, openDetails}) {
                                     (task)=>(
                                         <li key={task.id} onClick={()=> openDetails(task.id)}>
                                             <input type="checkbox" checked= {task.completed} readOnly/>
-                                            <span className={`task-title ${task.completed? 'done':''}`}>{task.taskTitle}</span>
+                                            <span className={`tasks-pg-task-title ${task.completed? 'done':''}`}>{task.taskTitle}</span>
                                             {task.priority && (
-                                                <span className={`task-priority ${task.priority.toLowerCase()}`}/>
+                                                <span className={`tasks-pg-task-priority ${task.priority.toLowerCase()}`}/>
                                                 )}
 
                                         </li>

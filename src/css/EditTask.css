@@ -1,4 +1,4 @@
-.task-form-container {
+.edit-page {
   max-width: 600px;
   margin: 2rem auto;
   padding: 2rem;
@@ -6,7 +6,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.form-title {
+.edit-pg-title {
   font-size: 1.8rem;
   font-weight: 700;
   text-align: center;
@@ -15,15 +15,15 @@
 }
 
 
-.task-form h4 {
+.edit-form h4 {
   font-size: 0.95rem;
   font-weight: 600;
   margin: 1rem 0 0.4rem;
   color: #333;
 }
 
-.title-input,
-.desc-input {
+.edit-title,
+.edit-desc{
   width: 95%;
   padding: 0.8rem;
   border: 1px solid #ddd;
@@ -33,31 +33,31 @@
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
-.desc-input {
+.edit-desc {
   min-height: 80px;
 }
 
-.title-input:focus,
-.desc-input:focus,
-.date-input:focus,
-.priority-input:focus {
+.edit-title:focus,
+.edit-desc:focus,
+.edit-date:focus,
+.edit-priority:focus {
   border-color: #5b46f7; /* accent color */
   box-shadow: 0 0 0 3px rgba(106, 90, 205, 0.15);
 }
 
-.form-row {
+.edit-row {
   display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-.date-col,
-.priority-col {
+.edit-date-col,
+.edit-prio-col {
   width: 50%;
 }
 
-.date-input,
-.priority-input {
+.edit-date,
+.edit-priority {
   width: 100%;
   border-radius: 8px;
   padding: 0.8rem 0.5rem;
@@ -68,17 +68,17 @@
   cursor: pointer;
 }
 
-.date-input {
+.edit-date {
   width: 94%;
 }
 
-.form-actions {
+.edit-actions {
   display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-.form-actions > * {
+.edit-actions > * {
   display: block;
   width: 50%;
   background: #5b46f7; /* main accent color */
@@ -92,8 +92,7 @@
   margin-top: 1.2rem;
   transition: background 0.2s ease;
 }
-.form-actions > .save-btn:hover,
-.form-actions > .cancel-btn:hover {
+.edit-actions > .save-btn:hover,
+.edit-actions > .cancel-btn:hover {
   background: #5941c5;
 }
-

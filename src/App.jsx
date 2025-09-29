@@ -4,7 +4,6 @@ import TaskForm from './components/TaskForm'
 import TasksList from './components/TasksList'
 import TaskDetails from './components/taskDetails'
 import EditTask from './components/EditTask'
-import NavBar from './components/NavBar'
 
 function App() {
 

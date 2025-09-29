@@ -3,15 +3,13 @@
   margin: 0 auto;
 }
 
-/* Page title */
-.page-title {
+.tasks-page > .page-title {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-/* Add new task button */
-.new-task-btn {
+.tasks-page > .new-task-btn {
   background-color: #5b46f7;
   color: white;
   border: none;
@@ -30,13 +28,11 @@
   background-color: #4935d4;
 }
 
-/* Section container */
-.main-div {
+.lists-div {
   margin-top: 30px;
 }
 
-/* Section headers */
-.main-div h2 {
+.lists-div h2 {
   font-size: 20px;
   margin: 20px 0 10px;
   font-weight: 600;
@@ -66,30 +62,26 @@ li:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
-/* Checkbox */
 input[type="checkbox"] {
   width: 20px;
   height: 20px;
-  accent-color: #e63946; /* modern browsers */
+  accent-color: #e63946;
   cursor: pointer;
 }
 
-/* Task title */
-.task-title {
+
+.tasks-pg-task-title {
   flex: 1;
   font-size: 16px;
   font-weight: 500;
   color: #333;
 }
 
-.task-title.done {
+.tasks-pg-task-title.done {
   text-decoration: line-through;
   color: #aaa;
 }
-
-/* Priority dot */
-/* Priority dot base */
-.task-priority {
+.tasks-pg-task-priority {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -97,13 +89,12 @@ input[type="checkbox"] {
   margin-left: 8px;
 }
 
-/* Priority colors */
-.task-priority.low {
-  background-color: #4caf50; /* green */
+.tasks-pg-task-priority.low {
+  background-color: #4caf50
 }
-.task-priority.medium {
-  background-color: #f4c430; /* yellow */
+.tasks-pg-task-priority.medium {
+  background-color: #f4c430
 }
-.task-priority.high {
-  background-color: #e63946; /* red */
+.tasks-pg-task-priority.high {
+  background-color: #e63946
 }
